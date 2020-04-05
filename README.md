@@ -15,7 +15,7 @@ Requirements:
   </div>
   
   <div>
-    [![FlyingShot demo](http://img.youtube.com/vi/T6Ud1fAa9Iw/0.jpg)](https://youtu.be/T6Ud1fAa9Iw)
+    [FlyingShot demo](https://youtu.be/T6Ud1fAa9Iw?t=0s)
   
   </div>
   
