@@ -34,7 +34,7 @@ def main():
     saver = tf.train.Saver()
 
     #make dir
-    if os.path.isdir('model/'):
+    if not os.path.exists('model/'):
         os.mkdir('model/')
 
     # if you want restore model
