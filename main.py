@@ -18,7 +18,6 @@ def main():
     #network
     #network = DQN.DQN()
     network = Dueling_DQN.DQN()
-    network.first_epsilon = 0.3647
     network.update_target()
 
     game.game_init()
