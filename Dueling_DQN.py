@@ -132,8 +132,6 @@ class DQN():
         return action
 
 
-
-
     def init_sess(self):
 
         config = tf.ConfigProto()
@@ -211,14 +209,10 @@ class DQN():
         #V
         output_V = tf.matmul(h_fc1, w_fc_V) + b_fc_V
 
-        # A V를 나눔
-        #h_flat_A, h_flat_V = tf.split(h_flat, 2, 1)
-
         
         # 계산
         # output = value + (advantage - mean(advantage))
         output = output_V + tf.subtract(output_A, tf.reduce_mean(output_A))
-        #output = tf.matmul(h_fc1, w_fc2) + b_fc2
 
         return x_image, output
 
