@@ -25,7 +25,7 @@ Make DQN with 3 conv layer and 2 fully connected layer.
 
 
 ![reward_progress](https://user-images.githubusercontent.com/33660224/78471816-ffcdb280-776e-11ea-9a70-cb372f24b4fc.png)
-> * After about 260,000 steps, the agent realize how to win the game.
+> * After about 260,000 steps, the agent learned how to win the game.
 
 
 Requirements
