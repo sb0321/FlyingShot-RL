@@ -69,7 +69,6 @@ def main():
 
                 elif win == False:
                     print("패배")
-                    plt.imshow(stack.state_set[len(stack.state_set) - 1])
                 break
 
         episode += 1
