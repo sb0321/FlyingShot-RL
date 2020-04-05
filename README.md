@@ -14,4 +14,9 @@ Requirements:
     <img src="https://user-images.githubusercontent.com/33660224/78471816-ffcdb280-776e-11ea-9a70-cb372f24b4fc.png"/>
   </div>
   
+  <div>
+    [![FlyingShot demo](http://img.youtube.com/vi/T6Ud1fAa9Iw/0.jpg)](https://youtu.be/T6Ud1fAa9Iw)
+  
+  </div>
+  
   
