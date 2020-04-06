@@ -18,7 +18,7 @@ Make DQN with 3 conv layer and 2 fully connected layer.
 ![explain_photo](https://user-images.githubusercontent.com/33660224/78472605-43c3b600-7775-11ea-89ff-de55a7155d8b.jpg)
 > * FlyingShot has 3 actions-> UP, DOWN, SHOOT
 > * The game gives you state, reward, terminal, win_status
-> * There are 2 enemies-> Bat, Firball
+> * There are 2 enemies-> Bat, Fireball
 > * Fireball is invulnerable
 > * If the agent kills 10 bats without dying, gets reward: 1
 > * If the agent is hit a bat or a fireball, the agent will dead, gets reward : -1
