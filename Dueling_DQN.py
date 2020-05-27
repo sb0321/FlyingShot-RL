@@ -13,7 +13,7 @@ class DQN():
         self.Num_action = 3
         self.Num_stacking = 4
 
-        self.first_conv = [8,8,self.Num_colorChannel, 32]
+        self.first_conv = [8,8,self.Num_colorChannel * self.Num_stacking, 32]
         self.second_conv = [4,4,32,64]
         self.third_conv = [3,3,64,64]
         self.first_dense = [10*10*64, 512]
